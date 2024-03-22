@@ -1,0 +1,100 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #fafafa;
+    color: rgba(0, 0, 0, 0.729);
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.cabecero{
+    margin: 50px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cabecero b {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contenedor_cajas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:5px;
+    margin-right: 230px;
+    margin-left: 180px;
+ }
+
+.caja {
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 10px;
+    padding-top: 15px;
+    padding-left: 30px ;
+    padding-bottom: 100px;
+    border-radius: 9px;
+    padding-right: 30px;
+    width: 300px;
+    height:150px;
+
+    box-shadow: 0 10px 20px #a3a5ae;
+
+}
+
+.caja p{
+    font-size: 14px;
+}
+
+.caja.uno{
+    border-top: 6px solid #ea5353;
+    position: relative;
+    grid-column: 2;
+    grid-row: 1/ span 2;
+}
+
+.caja.dos{
+    border-top: 6px solid #62dada;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2 /span 2;
+
+}
+
+.caja.tres{
+    border-top: 6px solid #fc9b1d;
+    position: relative;
+    grid-column: 2;
+    grid-row: 3 / span 2;
+
+}
+
+.caja.cuatro{
+    border-top: 6px solid #4a9dfc;
+    position: relative;
+    grid-column: 3;
+    grid-row: 2/ span 2;
+}
+
+#img1, #img2 ,#img3, #img4{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+
+
+
+
+
+
+
